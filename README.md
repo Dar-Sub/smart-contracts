@@ -1,4 +1,4 @@
-# FULL TUTORIAL CODES FROM EaTheBlocks School
+# My Full Tutorial Scripts From EaTheBlocks School
 
 Blockchain tutorials of EatTheBlocks. Learning how to build Decentralized
 Applications (Dapps) on Ethereum and Solidity Smart contracts
