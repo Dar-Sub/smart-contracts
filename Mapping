@@ -1,0 +1,31 @@
+pragma solidity ^0.8.6;
+
+contract MyContract {
+    // Mappings
+    mapping (address => uint256 []) public balances;
+    mapping (address => mapping(address => bool)) approved;
+    mapping (address => uint[]) public ABC;
+
+    function foo(address spender) external {
+       balances[msg.sender] = 100;
+       balances[msg.sender];
+       balances[msg.sender] = 200;
+       delete balances[msg.sender];
+      
+       balances [SomeAddressThatDoNotExist] => 0; // Undefined
+
+       approved [msg.sender][spender] = true;
+       approved [msg.sender][spender];
+       approved [msg.sender][spender] = false;
+       delete approved[msg.sender][spender];
+
+       ABC [msg.sender] = new uint[](2);
+       ABC[msg.sender].push(1);
+       ABC[msg.sender].push(2);
+       ABC[msg.sender][O];
+       ABC[msg.sender][0] = 10;
+    
+       delete ABC[msg.sender][O];
+    }
+
+}
